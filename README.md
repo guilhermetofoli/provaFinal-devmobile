@@ -63,7 +63,7 @@ Se você deseja que o seu endpoint retorne o total de itens no banco e um ID de 
 * "$mockData": Injeta a coleção de dados original ou o registro consultado.
 * "$datatype.uuid": Invoca um método do Faker.js em tempo de execução, gerando um UUID novo a cada chamada de API.
 
-#Métodos Úteis do Faker.js para o Schema
+# Métodos Úteis do Faker.js para o Schema
 
 Ao estruturar os campos dos recursos (como Insumos ou Movimentações), o painel do MockAPI disponibiliza uma série de métodos do Faker.js. Abaixo estão listados os principais módulos e exemplos aplicáveis a sistemas de gerenciamento:
 
