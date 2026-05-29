@@ -1,10 +1,10 @@
-# 📦 Guia do Back-end: MockAPI.io
+#  Guia do Back-end: MockAPI.io
 
 Este repositório documenta a configuração completa do **MockAPI.io** utilizado como camada de banco de dados e API RESTful para o aplicativo móvel de controle de almoxarifado. Ele detalha a estrutura de requisições, paginação, filtros, ordenação e respostas customizadas para apoiar o desenvolvimento ágil do projeto.
 
 ---
 
-## 🚀 Guia de Início Rápido (Quick Start Guide)
+##  Guia de Início Rápido (Quick Start Guide)
 
 O MockAPI permite criar endpoints, gerar dados fictícios (*mockados*) e realizar operações completas de CRUD de forma ágil para o desenvolvimento em React Native.
 
@@ -36,7 +36,7 @@ Para testar o aplicativo com dados realistas sem precisar cadastrar um por um:
 
 ---
 
-## 🛠️ Respostas Customizadas (Custom Responses)
+##  Respostas Customizadas (Custom Responses)
 
 Por padrão, o MockAPI retorna diretamente o item individual ou a coleção de dados do banco de dados (representado pela variável interna `$mockData`). No entanto, para simular cenários reais do mercado (como paginação complexa ou envelopamento de objetos), podemos customizar a estrutura de retorno de qualquer endpoint.
 
@@ -152,7 +152,7 @@ fetch(url, {
 .then(sortedTasks => console.log(sortedTasks));
 ```
 
-#Requisições Assíncronas e Ciclo de Vida (React Native)
+# Requisições Assíncronas e Ciclo de Vida (React Native)
 
 Para alimentar a interface móvel do almoxarifado de saúde, as chamadas à API utilizam a sintaxe assíncrona async/await mapeada dentro do ciclo de vida dos componentes através dos React Hooks:
 
